@@ -851,7 +851,7 @@ ol {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  padding: 200px 0 120px 0;
+  padding: 75px 0 75px 0;
   z-index: 2;
   overflow: hidden;
   text-align: center;
@@ -6469,8 +6469,8 @@ ul.custom-flex {
     padding-right: 200px;
   }
   .breadcrumbs {
-    padding-top: 130px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .breadcrumbs .breadcrumbs-content .page-title {
     font-size: 30px;
@@ -6927,8 +6927,8 @@ ul.custom-flex {
     font-size: 12px;
   }
   .breadcrumbs {
-    padding-top: 130px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .breadcrumbs .breadcrumbs-content {
     margin-bottom: 30px;

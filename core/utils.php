@@ -15,7 +15,11 @@ function url($path) {
 }
 
 function eventUrl($event_slug) {
-    return url('event/' . $event_slug);
+    return url('event-detail.php?slug=' . $event_slug);
+}
+
+function pageUrl($page_slug) {
+    return url('page.php?slug=' . $page_slug);
 }
 
 function slug($string, $separator='-') {
@@ -27,4 +31,8 @@ function slug($string, $separator='-') {
     $string = preg_replace("/[^a-z0-9]/u", "$separator", $string);
     $string = preg_replace("/[$separator]+/u", "$separator", $string);
     return $string;
+}
+
+function currentUrl() {
+    return (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 }

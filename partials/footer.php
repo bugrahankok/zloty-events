@@ -40,9 +40,12 @@
                         <div class="single-footer sm-custom-border f-link">
                             <h3>Corporate</h3>
                             <ul>
-                                <li><a href="javascript:void(0)">About Us</a></li>
-                                <li><a href="javascript:void(0)">Privacy Policy</a></li>
-                                <li><a href="javascript:void(0)">GDPR</a></li>
+                                <?php
+                                    $pages = mysqli_query($conn, "SELECT * FROM pages ORDER BY id ASC");
+                                    while ($page = mysqli_fetch_object($pages)) {
+                                ?>
+                                    <li><a href="<?php echo pageUrl($page->slug); ?>"><?php echo $page->title; ?></a></li>
+                                <?php } ?>
                                 <li><a href="contact.php">Contact Us</a></li>
                             </ul>
                         </div>
