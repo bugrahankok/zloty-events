@@ -29,8 +29,13 @@
                             <ul>
                                 <li><a href="index.php">Home</a></li>
                                 <li><a href="events.php">All Events</a></li>
-                                <li><a href="login.php">Login</a></li>
-                                <li><a href="signup.php">Create Account</a></li>
+                                <?php if (!isUserLoggedIn()): ?>
+                                    <li><a href="signup.php">Create an Account</a></li>
+                                    <li><a href="login.php">Log In</a></li>
+                                <?php else: ?>
+                                    <li><a href="profile.php">My Profile</a></li>
+                                    <li><a href="logout.php">Logout</a></li>
+                                <?php endif; ?>
                             </ul>
                         </div>
                         <!-- End Single Widget -->
@@ -94,6 +99,15 @@
         <i class="lni lni-chevron-up"></i>
     </a>
 
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 99">
+        <div class="toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div id="toastBody" class="toast-body"></div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+
     <!-- ========================= JS here ========================= -->
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/count-up.min.js"></script>
@@ -101,6 +115,17 @@
     <script src="assets/js/tiny-slider.js"></script>
     <script src="assets/js/glightbox.min.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script>
+        <?php if (isset($_TOASTER)): ?>
+            let toaster = document.querySelector('.toast');
+            let alert = new bootstrap.Toast(toaster);
+            document.getElementById('toastBody').innerText = "<?=$_TOASTER?>";
+            alert.show();
+        <?php endif; ?>
+    </script>
+
+    <?php if (empty(currentPath()) || strpos(currentPath(), 'index.php') !== false): ?>
     <script type="text/javascript">
         //========= Hero Slider 
         tns({
@@ -143,6 +168,7 @@
             }
         });
     </script>
+    <?php endif; ?>
 </body>
 
 </html>

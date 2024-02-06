@@ -66,12 +66,29 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
-                        <div class="toolbar-login">
-                            <div class="button">
-                                <a href="registration.html">Create an Account</a>
-                                <a href="login.html" class="btn">Log In</a>
+                        <?php if (!isUserLoggedIn()): ?>
+                            <div class="toolbar-login">
+                                <div class="button">
+                                    <a href="signup.php">Create an Account</a>
+                                    <a href="login.php" class="btn">Log In</a>
+                                </div>
                             </div>
-                        </div>
+                        <?php else: ?>
+                            <div class="dropdown float-end">
+                                <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="profileMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <?=$user_details->full_name?>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="profileMenu">
+                                    <?php if (isAdmin()): ?>
+                                        <li><a class="dropdown-item" href="admin-dashboard.php" class="btn">Admin Dashboard</a></li>
+                                    <?php endif; ?>
+                                    <li><a class="dropdown-item" href="create-event.php" class="btn">New Event</a></li>
+                                    <li><a class="dropdown-item" href="my-events.php" class="btn">My Events</a></li>
+                                    <li><a class="dropdown-item" href="profile.php" class="btn">My Profile</a></li>
+                                    <li><a class="dropdown-item" href="logout.php" class="btn">Logout</a></li>
+                                </ul>
+                            </div>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
@@ -82,7 +99,7 @@
                 <div class="col-lg-12">
                 <div class="nav-inner">
                     <nav class="navbar navbar-expand-lg">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="index.php">
                             <img src="assets/images/logo/logo.svg" alt="Logo">
                         </a>
                         <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"

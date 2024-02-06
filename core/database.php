@@ -18,3 +18,8 @@ if (mysqli_connect_error()) {
 $site_settings = mysqli_fetch_object(mysqli_query($conn, "SELECT * FROM general_settings WHERE id = '1'"));
 
 require_once __DIR__ . '/utils.php';
+
+if (isUserLoggedIn()) {
+    $user_id = $_SESSION['user_id'];
+    $user_details = mysqli_fetch_object(mysqli_query($conn, "SELECT * FROM users WHERE id = '$user_id'"));
+}

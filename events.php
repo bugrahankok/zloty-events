@@ -60,7 +60,7 @@
                                 <div class="content">
                                     <h3>
                                         <a href="<?php echo eventUrl($event->slug); ?>">
-                                            <?php echo mb_substr($event->title, 0, 35, "UTF-8") ?>
+                                            <?php echo mb_substr($event->title, 0, 32, "UTF-8") ?>
                                         </a>
                                     </h3>
                                     <p>

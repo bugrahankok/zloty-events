@@ -36,3 +36,15 @@ function slug($string, $separator='-') {
 function currentUrl() {
     return (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 }
+
+function currentPath() {
+    return $_SERVER['REQUEST_URI'];
+}
+
+function isUserLoggedIn() {
+    return !empty($_SESSION['login']) && !empty($_SESSION['user_id']) && !empty($_SESSION['user_role']) && $_SESSION['login'];
+}
+
+function isAdmin() {
+    return isUserLoggedIn() && $_SESSION['user_role'] == 'ADMIN';
+}
