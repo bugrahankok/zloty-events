@@ -72,15 +72,15 @@
                         <div class="single-info">
                             <i class="lni lni-map-marker"></i>
                             <h4>Visit Our Office</h4>
-                            <p class="no-margin-bottom">202 Mainstreet, 12th Floor
-                                <br> New York, NY 10013.</p>
+                            <p class="no-margin-bottom">Palace of Culture and Science Ltd.
+                                <br> Warsaw, WAW 03-700.</p>
                         </div>
                         <!-- End Single Info -->
                         <!-- Start Single Info -->
                         <div class="single-info">
                             <i class="lni lni-phone"></i>
                             <h4>Let's Talk</h4>
-                            <p class="no-margin-bottom">Phone: (+44) 123 456 789
+                            <p class="no-margin-bottom">Phone: (+48) 123 456 789
                                 <br> Fax: 123 456 789</p>
                         </div>
                         <!-- End Single Info -->

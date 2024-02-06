@@ -83,7 +83,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="left">
-                                <p>Designed and Developed by<a href="https://bugrahan.me" rel="nofollow" target="_blank">Bugrahan Kök</a></p>
+                                <p>Designed and Developed by<a href="https://bugrahan.me" rel="nofollow" target="_blank">Genç Fenerbahçeliler</a></p>
                             </div>
                         </div>
                     </div>

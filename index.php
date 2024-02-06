@@ -6,21 +6,21 @@
     <section class="hero-area">
         <div class="hero-slider">
             <!-- Single Slider -->
-            <div class="hero-inner overlay" style="background-image: url('assets/images/hero/slider-bg1.jpg');">
+            <div class="hero-inner overlay" style="background-image: url('assets/images/hero/breadcrumbs.jpeg');">
                 <div class="container">
                     <div class="row ">
                         <div class="col-lg-8 offset-lg-2 col-md-12 co-12">
                             <div class="home-slider">
                                 <div class="hero-text">
-                                    <h5 class="wow fadeInUp" data-wow-delay=".3s">Start to Learning Today</h5>
-                                    <h1 class="wow fadeInUp" data-wow-delay=".5s">Excellent And Friendly <br> Faculty Members</h1>
+                                    <h5 class="wow fadeInUp" data-wow-delay=".3s">Zloty Events</h5>
+                                    <h1 class="wow fadeInUp" data-wow-delay=".5s">Find Your Event Place</h1>
                                     <p class="wow fadeInUp" data-wow-delay=".7s">Lorem Ipsum is simply dummy text of the
                                         printing and typesetting <br> industry. Lorem Ipsum has been the industry's
                                         standard
                                         <br>dummy text ever since an to impression.</p>
                                     <div class="button wow fadeInUp" data-wow-delay=".9s">
-                                        <a href="about-us.html" class="btn">Learn More</a>
-                                        <a href="courses-grid.html" class="btn alt-btn">Our Courses</a>
+                                        <a href="contact.php" class="btn">Learn More</a>
+                                        <a href="events.php" class="btn alt-btn">Our Events</a>
                                     </div>
                                 </div>
                             </div>
@@ -30,21 +30,21 @@
             </div>
             <!--/ End Single Slider -->
             <!-- Single Slider -->
-            <div class="hero-inner overlay" style="background-image: url('assets/images/hero/slider-bg2.jpg');">
+            <div class="hero-inner overlay" style="background-image: url('assets/images/hero/breadcrumbs.jpeg');">
                 <div class="container">
                     <div class="row ">
                         <div class="col-lg-8 offset-lg-2 col-md-12 co-12">
                             <div class="home-slider">
                                 <div class="hero-text">
-                                    <h5 class="wow fadeInUp" data-wow-delay=".3s">Start to learning Today</h5>
-                                    <h1 class="wow fadeInUp" data-wow-delay=".5s">Innovation Paradise<br> For Students </h1>
+                                    <h5 class="wow fadeInUp" data-wow-delay=".3s">Zloty Events</h5>
+                                    <h1 class="wow fadeInUp" data-wow-delay=".5s">Find Your Concert Place </h1>
                                     <p class="wow fadeInUp" data-wow-delay=".7s">Lorem Ipsum is simply dummy text of the
                                         printing and typesetting <br> industry. Lorem Ipsum has been the industry's
                                         standard
                                         <br>dummy text ever since an to impression.</p>
                                     <div class="button wow fadeInUp" data-wow-delay=".9s">
-                                        <a href="about-us.html" class="btn">Learn More</a>
-                                        <a href="events-grid.html" class="btn alt-btn">Our Events</a>
+                                        <a href="contact.php" class="btn">Learn More</a>
+                                        <a href="events.php" class="btn alt-btn">Our Events</a>
                                     </div>
                                 </div>
                             </div>
@@ -54,21 +54,21 @@
             </div>
             <!--/ End Single Slider -->
             <!-- Single Slider -->
-            <div class="hero-inner overlay" style="background-image: url('assets/images/hero/slider-bg3.jpg');">
+            <div class="hero-inner overlay" style="background-image: url('assets/images/hero/breadcrumbs.jpeg');">
                 <div class="container">
                     <div class="row ">
                         <div class="col-lg-8 offset-lg-2 col-md-12 co-12">
                             <div class="home-slider">
                                 <div class="hero-text">
-                                    <h5 class="wow fadeInUp" data-wow-delay=".3s">Start to learning Today</h5>
-                                    <h1 class="wow fadeInUp" data-wow-delay=".5s">Your Ideas Will Be <br> Heard & Supported</h1>
+                                    <h5 class="wow fadeInUp" data-wow-delay=".3s">Zloty Events</h5>
+                                    <h1 class="wow fadeInUp" data-wow-delay=".5s">Find Your Party Place</h1>
                                     <p class="wow fadeInUp" data-wow-delay=".7s">Lorem Ipsum is simply dummy text of the
                                         printing and typesetting <br> industry. Lorem Ipsum has been the industry's
                                         standard
                                         <br>dummy text ever since an to impression.</p>
                                     <div class="button wow fadeInUp" data-wow-delay=".9s">
-                                        <a href="about-us.html" class="btn">Learn More</a>
-                                        <a href="#" class="btn alt-btn">Our Courses</a>
+                                        <a href="contact.php" class="btn">Learn More</a>
+                                        <a href="events.php" class="btn alt-btn">Our Events</a>
                                     </div>
                                 </div>
                             </div>
@@ -172,13 +172,13 @@
             <div class="row ">
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
                     <div class="call-content">
-                        <span>EduGrids Free Lite Version</span>
-                        <h2>Currently you are using free <br>Lite
-                            Version of EduGrids</h2>
+                        <span>Zloty Events</span>
+                        <h2>All Events in Warsaw</h2>
                         <p>Please, purchase full version of the template to get all pages,<br>
-                            features and commercial license</p>
+                            features and commercial licenseLorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         <div class="button">
-                            <a href="javascript:void(0)" class="btn">Buy Now</a>
+                            <a href="events.php" class="btn">Events</a>
                         </div>
                     </div>
                 </div>
@@ -187,43 +187,6 @@
     </section>
     <!-- /End Call To Action Area -->
 
-    <!-- Start Clients Area -->
-    <div class="client-logo-section">
-        <div class="container">
-            <div class="client-logo-wrapper">
-                <div class="client-logo-carousel d-flex align-items-center justify-content-between">
-                    <div class="client-logo">
-                        <img src="assets/images/clients/client1.svg" alt="">
-                    </div>
-                    <div class="client-logo">
-                        <img src="assets/images/clients/client2.svg" alt="">
-                    </div>
-                    <div class="client-logo">
-                        <img src="assets/images/clients/client3.svg" alt="">
-                    </div>
-                    <div class="client-logo">
-                        <img src="assets/images/clients/client4.svg" alt="">
-                    </div>
-                    <div class="client-logo">
-                        <img src="assets/images/clients/client5.svg" alt="">
-                    </div>
-                    <div class="client-logo">
-                        <img src="assets/images/clients/client2.svg" alt="">
-                    </div>
-                    <div class="client-logo">
-                        <img src="assets/images/clients/client3.svg" alt="">
-                    </div>
-                    <div class="client-logo">
-                        <img src="assets/images/clients/client4.svg" alt="">
-                    </div>
-                    <div class="client-logo">
-                        <img src="assets/images/clients/client5.svg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Clients Area -->
 
 <?php
     require_once __DIR__ . '/partials/footer.php';
