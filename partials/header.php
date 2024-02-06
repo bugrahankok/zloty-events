@@ -11,7 +11,7 @@
     <title><?=setting('site_title')?></title>
     <meta name="description" content="<?=setting('site_description')?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg?v=1" />
     <!-- Place favicon.ico in the root directory -->
 
     <!-- Web Font -->

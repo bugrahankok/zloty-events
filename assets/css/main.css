@@ -844,6 +844,10 @@ ol {
   }
 }
 
+.card {
+  border-radius: 0;
+}
+
 /* Bread Crumbs */
 .breadcrumbs {
   background-image: url("../images/breadcrumb/breadcrumb-bg.jpg");
@@ -1530,7 +1534,7 @@ ol {
 }
 
 .navbar-brand img {
-  width: 170px;
+  width: 260px;
 }
 
 .mobile-menu-btn {
@@ -6261,7 +6265,7 @@ ul.custom-flex {
 }
 
 .footer .logo img {
-  width: 170px;
+  width: 220px;
 }
 
 .footer .f-about p {
@@ -6488,7 +6492,7 @@ ul.custom-flex {
     bottom: 55px;
   }
   .navbar-brand img {
-    width: 130px;
+    width: 190px;
   }
   .header .search-form {
     display: none !important;

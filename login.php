@@ -22,6 +22,9 @@
             if ($user_exist > 0) {
 
                 $user = mysqli_fetch_object(mysqli_query($conn, "SELECT * FROM users WHERE email = '$email' AND password = '$password'"));
+                $now = date();
+                mysqli_query($conn, "UPDATE users SET last_login_at = '$now' WHERE id = '$user->id'");
+                
                 $_SESSION['login'] = true;
                 $_SESSION['user_id'] = $user->id;
                 $_SESSION['user_role'] = $user->role;

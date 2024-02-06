@@ -6,7 +6,7 @@ function setting($setting_name) {
 }
 
 function formatDate($date, $desired_format) {
-    return date_format(date_create($date), $desired_format);
+    return !empty($date) ? date_format(date_create($date), $desired_format) : '-';
 }
 
 function url($path) {
